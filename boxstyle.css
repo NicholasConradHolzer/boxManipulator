@@ -1,0 +1,33 @@
+body{
+    background-color: linen;
+}
+#vortex{
+    height: 0vh;
+    width: 0vw;
+    object-fit: cover;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    z-index: -1;
+    transform:scale3d(2.0,1.5,1.0)
+}
+table{
+    background-color: grey;
+    display: table;
+}
+#control, #control2{
+    display: table;
+    color: white;
+    background-color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+}
+#title{
+    font-family: fantasy;
+    display: table;
+    background-color: lightsalmon;
+    text-shadow:  2px 1px 1px honeydew,
+    -2px -1px 1px gold;
+}

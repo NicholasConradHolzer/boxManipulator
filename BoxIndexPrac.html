@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Watch That Box</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="boxstyle.css">
+</head>
+<body>
+
+    <p id="title">Press the buttons to change the box!</p>
+
+    <div id="box" style="height:150px; width:150px; background-color:#ffa500; margin:25px"></div>
+    <!--width="560" height="315"-->
+    <iframe id="vortex" width="0px" height="0px" src="https://www.youtube.com/embed/t6jlhqNxRYk?autoplay=1&mute=1&loop=1&controls=0" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<div id="control"><p>Basic Controls</p></div>
+<table>
+    <tr>
+        <td>
+    <button class="button" id="grow">Grow</button>
+    <button class="button" id="shrink">Shrink</button>
+    <button class="button" id="blue">Blue</button>
+    <button class="button" id="fade">Fade</button>
+    <button class="button" id="reset">Reset</button>  <!--grow,shrink,ydink,BiggerBoot,blue,fade,chaos-->
+        </td>
+    </tr>
+</table>
+<br>
+<div id="control2"><p>Special Controls</p></div>
+<table id="control3">
+    <tr>
+        <td>
+    <button class="button" id="ydink">Go-Micro Shrink</button>
+    <button class="button" id="BiggerBoot">Grow Way-Big</button>
+    <button class="button" id="chaos">CHAOS</button>
+        </td>
+    </tr>
+</table>
+
+<script type="text/javascript" src="boxscriptor.js.js"></script>
+
+</body>
+</html>
